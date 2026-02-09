@@ -1,0 +1,99 @@
+@import url('index.css');
+
+/* Cabeçalho da Página (Hero Section) */
+.sobre-header {
+    background: linear-gradient(90deg, #260401, #4b0e0e); /* Mesmo gradiente da navbar */
+    animation: fadeInDown 0.8s ease;
+}
+
+.sobre-header h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* Seção principal de conteúdo */
+.sobre-section {
+    background-color: whitesmoke; /* Cor de fundo principal do seu site */
+}
+
+.sobre-section .container {
+    max-width: 900px;
+    background-color: #E4DCC9; /* Fundo branco para a caixa de texto */
+    padding: 2.5rem;
+    border-left: 6px solid #4b0e0e; /* Borda com a cor escura */
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    animation: fadeInUp 0.8s ease;
+}
+
+.sobre-section h2 {
+    color: #260401; /* Cor escura para os títulos */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-bottom: 2px solid #E4DCC9; /* Detalhe com a cor mais clara */
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.sobre-section p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: #555;
+    text-align: justify;
+}
+
+/* Seção da Equipe */
+.team-section {
+    background-color: #E4DCC9; /* Um cinza bem claro para diferenciar */
+}
+
+.team-section h2 {
+    color: #260401;
+}
+
+.team-member .team-photo {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #E4DCC9;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.team-member:hover .team-photo {
+    transform: scale(1.1);
+}
+
+/* Animações sutis */
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.navbar-toggler,
+.navbar-toggler-icon,
+.navbar-toggler-icon.collapsed,
+.navbar-toggler:focus,
+.navbar-toggler:active {
+    border: none;
+    filter: invert(1);
+  color: white !important;
+  border-color: white !important;
+}

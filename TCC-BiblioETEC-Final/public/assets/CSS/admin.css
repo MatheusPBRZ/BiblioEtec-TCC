@@ -1,0 +1,117 @@
+
+        main {
+            flex-grow: 1;
+        }
+        .panel-card {
+            border: none;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            transition: all 0.3s ease-in-out;
+        }
+        .panel-card:hover {
+            box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+        }
+        
+        .btn-panel {
+            padding: 12px 20px;
+            font-size: 1.1rem;
+            font-weight: 500;
+            transition: all 0.2s ease-in-out;
+        }
+        .btn-panel:hover {
+            transform: translateY(-2px);
+        }
+
+
+
+
+    body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #E4DCC9;
+    height: 100%;
+
+}
+
+
+.container-geral {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+}
+.icone-usuario {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%; /* arredonda se for um avatar */
+    object-fit: cover;
+  }
+  /* Navbar herdada */
+  .navbar {
+    background: linear-gradient(90deg, #260401, #4b0e0e);
+    padding: 10px 20px;
+    transition: background 0.3s ease;
+  }
+  
+  .navbar .nav-link {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: #fff !important;
+    font-weight: 500;
+    position: relative;
+    transition: color 0.3s, transform 0.2s;
+    margin-left: 30px;;
+  }
+  
+  .navbar .nav-link:hover {
+    color: #ffcc70 !important;
+    transform: translateY(-2px);
+  }
+  
+  .navbar .nav-link i {
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+  
+  .navbar .nav-link:hover i {
+    transform: scale(1.2) rotate(-8deg);
+    color: #ffcc70;
+  }
+  
+  .navbar-brand {
+    color: #fff !important;
+    font-weight: bold;
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .navbar-toggler,
+.navbar-toggler-icon,
+.navbar-toggler-icon.collapsed,
+.navbar-toggler:focus,
+.navbar-toggler:active {
+    border: none;
+    filter: invert(1);
+  color: white !important;
+  border-color: white !important;
+}
+  
+  /* Ícone do usuário */
+  .icone-usuario {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+
+footer {
+    background-color: #260401;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    position: flex;
+    bottom: 0;
+    width: 100%;
+}

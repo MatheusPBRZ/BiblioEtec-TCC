@@ -1,0 +1,159 @@
+
+
+/* Navbar herdada */
+.navbar {
+    background: linear-gradient(90deg, #260401, #4b0e0e); /*Efeito degradê*/
+    padding: 10px 20px; /* Espaçamento interno */
+    transition: background 0.3s ease; /* Transição do hover */
+}
+
+.navbar .nav-link { /* Estilização das linhas de redirecionamento*/
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: #fff !important;
+    font-weight: 500;
+    position: relative;
+    transition: color 0.3s, transform 0.2s;
+    margin-left: 30px;
+}
+
+.navbar .nav-link:hover {
+    color: #ffcc70 !important;
+    transform: translateY(-2px);
+}
+
+.navbar .nav-link i {
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.navbar .nav-link:hover i {
+    transform: scale(1.2) rotate(-8deg);
+    color: #ffcc70;
+}
+
+.navbar-brand {
+    color: #fff !important;
+    font-weight: bold;
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.navbar-toggler,
+.navbar-toggler-icon,
+.navbar-toggler-icon.collapsed,
+.navbar-toggler:focus,
+.navbar-toggler:active {
+    border: none;
+    filter: invert(1);
+  color: white !important;
+  border-color: white !important;
+}
+
+/* Ícone do usuário */
+.icone-usuario {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* --- CORREÇÃO PRINCIPAL --- */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #E4DCC9;
+    font-family: Arial, sans-serif;
+}
+
+/* Este container já organiza a página inteira corretamente */
+.container-geral {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Esta regra faz o conteúdo principal ocupar o espaço disponível, empurrando o rodapé para baixo */
+main {
+    flex: 1;
+    /* Adicionado para centralizar o formulário dentro do main */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px; /* Adiciona um respiro */
+}
+
+.cadastro-box {
+    width: 100%;
+    max-width: 500px;
+    /* O padding pode ir direto no card ou ser mantido aqui */
+}
+
+.cadastro-card {
+    border: 2px solid #9B6E60;
+    background-color: #ecd2c3;
+    border-radius: 10px;
+}
+
+.btn-primary {
+    background-color: #9B6E60;
+    border-color: #9B6E60;
+}
+
+.btn-primary:hover {
+    background-color: #CFA190;
+    border-color: #CFA190;
+}
+/*Estilização do botão voltar*/
+.voltar{
+    background-color: #9B6E60;
+    border-color: #9B6E60;
+    text-decoration:none;
+    /*Paddings*/
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 4px;
+    color: white;
+    position: auto;
+    position: absolute;
+    transform: translate(70px, 2px); 
+    
+}
+.voltar:hover {
+    background-color: #CFA190;
+    border-color: #CFA190;
+}
+/*Botão de Login*/
+
+.login-button {
+    color: #9B6E60;
+    text-decoration: none;
+    font-weight: bold;
+    
+  
+
+}
+
+.login-button:hover {
+    text-decoration: underline;
+    color: #D8B7A3;
+}
+
+h2{
+    color:#9B6E60; ;
+}
+
+
+
+/*Rodapé*/
+footer {
+    background-color: #260401;
+    color: white;
+    text-align: center;
+    padding: 10px; /* Um pouco mais de preenchimento fica melhor */
+    width: 100%;
+}

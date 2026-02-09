@@ -1,0 +1,48 @@
+biblioteca.txt
+
+create database biblioteca;
+
+USE biblioteca;
+
+CREATE TABLE `emprestimos` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `usuario_id` int(11) DEFAULT NULL,
+  `livro_id` int(11) DEFAULT NULL,
+  `data_agendamento` date DEFAULT NULL,
+  `data_devolucao` date DEFAULT NULL,
+  `status` enum('pendente','concluído','cancelado') DEFAULT 'pendente',
+  PRIMARY KEY (`id`),
+  KEY `usuario_id` (`usuario_id`),
+  KEY `livro_id` (`livro_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+CREATE TABLE `livros` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `titulo` varchar(255) NOT NULL,
+  `autor` varchar(255) NOT NULL,
+  `ano_publicacao` date NOT NULL,
+  `genero` varchar(100) NOT NULL,
+  `quantidade` int(11) NOT NULL,
+  `capa` varchar(255) NOT NULL,
+  `sinopse` varchar(255) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+CREATE TABLE `usuarios` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `nome` varchar(100) NOT NULL,
+  `email` varchar(100) NOT NULL UNIQUE,
+  `senha` varchar(255) NOT NULL,
+  `data_cadastro` timestamp NOT NULL DEFAULT current_timestamp(),
+  `tipo` enum('comum','admin') DEFAULT 'comum',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+
+
+INSERT INTO `usuarios` (`id`, `nome`, `email`, `senha`, `data_cadastro`, `tipo`) VALUES
+(1, 'Rafael', 'rafael098@gmail.com', '123456', '2025-09-16 23:19:00', 'admin');
+
+ALTER TABLE `emprestimos`
+  ADD CONSTRAINT `emprestimos_ibfk_1` FOREIGN KEY (`usuario_id`) REFERENCES `usuarios` (`id`),
+  ADD CONSTRAINT `emprestimos_ibfk_2` FOREIGN KEY (`livro_id`) REFERENCES `livros` (`id`);

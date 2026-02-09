@@ -1,0 +1,230 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #E4DCC9;
+    height: 100%;
+
+}
+
+main{
+flex:1;
+}
+
+.container-geral {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+}
+.icone-usuario {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%; /* arredonda se for um avatar */
+    object-fit: cover;
+  }
+  /* Navbar herdada */
+  .navbar {
+    background: linear-gradient(90deg, #260401, #4b0e0e);
+    padding: 10px 20px;
+    transition: background 0.3s ease;
+  }
+  
+  .navbar .nav-link {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: #fff !important;
+    font-weight: 500;
+    position: relative;
+    transition: color 0.3s, transform 0.2s;
+    margin-left: 30px;;
+  }
+  
+  .navbar .nav-link:hover {
+    color: #ffcc70 !important;
+    transform: translateY(-2px);
+  }
+  
+  .navbar .nav-link i {
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+  
+  .navbar .nav-link:hover i {
+    transform: scale(1.2) rotate(-8deg);
+    color: #ffcc70;
+  }
+  
+  .navbar-brand {
+    color: #fff !important;
+    font-weight: bold;
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .navbar-toggler,
+.navbar-toggler-icon,
+.navbar-toggler-icon.collapsed,
+.navbar-toggler:focus,
+.navbar-toggler:active {
+    border: none;
+    filter: invert(1);
+  color: white !important;
+  border-color: white !important;
+}
+  
+  /* Ícone do usuário */
+  .icone-usuario {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+
+
+h2 {
+    text-align: center;
+    color: black;
+    font-family: Lasters;
+}
+
+section.destaques, section.catalogo {
+    margin-bottom: 30px;
+}
+
+.card {
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s ease;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+.card-img-top {
+    height: 250px;
+    object-fit: cover;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.card-body {
+    padding: 10px;
+    
+}
+
+.card-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    font-size: 0.95rem;
+}
+
+.card-footer {
+    background-color: #f8f9fa;
+    border-top: none;
+}
+
+.btn {
+    padding: 6px 12px;
+    font-size: 0.9rem;
+}
+
+@media (max-width: 576px) {
+    .card-img-top {
+        height: 180px;
+    }
+}
+
+
+
+
+   
+.search-bar /*barra de buscar livros*/
+{
+position: absolute;
+left: 55px; /* eixo X */
+top: 80px;  /* eixo Y */
+
+
+
+}
+
+
+
+
+
+
+.livros {
+    display: flex;
+    gap: 20px;
+    margin-left: 170px;
+}
+
+.livro {
+    border: 1px solid whitesmoke;
+    padding: 10px;
+    text-align: center;
+    margin-right: 50px;
+}
+/*Destaques*/
+.destaque img {
+    width: 100px;
+    height: 150px;
+}
+
+
+.destaques {
+    display: flex;
+    gap: 20px;
+    margin-left: 170px;
+    background-color: #fff;
+}
+
+.destaque {
+    border: 1px solid whitesmoke;
+    padding: 10px;
+    text-align: center;
+    margin-right: 50px;
+}
+
+.destaque img {
+    width: 100px;
+    height: 150px;
+}
+
+
+
+
+footer {
+    background-color: #260401;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    position: flex;
+    bottom: 0;
+    width: 100%;
+}
+
+
+.botaocadastrar{
+    color:white; 
+    background-color: #260401;
+    padding: 5px 17px;
+    margin-left: 10px;
+    border-radius: 8px;
+    text-decoration: none ;
+
+    
+    
+
+    
+
+
+}

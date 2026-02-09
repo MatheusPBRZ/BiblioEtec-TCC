@@ -1,0 +1,196 @@
+/* Navbar herdada */
+.navbar {
+    background: linear-gradient(90deg, #260401, #4b0e0e); /*Efeito degradê*/
+    padding: 10px 20px; /* Espaçamento interno */
+    transition: background 0.3s ease; /* Transição do hover */
+}
+
+.navbar .nav-link { /* Estilização das linhas de redirecionamento*/
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: #fff !important;
+    font-weight: 500;
+    position: relative;
+    transition: color 0.3s, transform 0.2s;
+    margin-left: 30px;
+}
+
+.navbar .nav-link:hover {
+    color: #ffcc70 !important;
+    transform: translateY(-2px);
+}
+
+.navbar .nav-link i {
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.navbar .nav-link:hover i {
+    transform: scale(1.2) rotate(-8deg);
+    color: #ffcc70;
+}
+
+.navbar-brand {
+    color: #fff !important;
+    font-weight: bold;
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.navbar-toggler,
+.navbar-toggler-icon,
+.navbar-toggler-icon.collapsed,
+.navbar-toggler:focus,
+.navbar-toggler:active {
+    border: none;
+    filter: invert(1);
+  color: white !important;
+  border-color: white !important;
+}
+
+/* Ícone do usuário */
+.icone-usuario {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* --- CORREÇÃO PRINCIPAL --- */
+
+/* Este container já organiza a página inteira corretamente */
+.container-geral {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    
+}
+
+/* Esta regra faz o conteúdo principal ocupar o espaço disponível, empurrando o rodapé para baixo */
+main {
+    flex: 1;
+    /* Adicionado para centralizar o formulário dentro do main */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px; /* Adiciona um respiro */
+    
+
+}
+
+
+
+/* ======== FORMULÁRIO DE CADASTRO DE LIVROS ======== */
+body {
+    background:#ecd2c3;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* Caixa do formulário */
+.card {
+    border-radius: 18px;
+    background-color:#ecd2c3; 
+    border-color :#593E25; 
+    box-shadow: 0 8px 18px #BFB2AA;
+    padding: 20px;
+    margin-bottom: 150px;
+}
+
+/* Título */
+.card h3 {
+    font-weight: bold;
+    color: #260F01;
+}
+
+/* Labels */
+.form-label {
+    font-weight: 600;
+    color: #593E25;
+}
+
+/* Inputs */
+.form-control {
+    border-radius: 12px;
+    border: 1px solid #593E25;
+    transition: all 0.3s ease-in-out;
+}
+
+.form-control:focus {
+    border-color: #F2B28D;
+    box-shadow: 0 0 6px rgba(19, 20, 20, 0.5);
+}
+
+/* Botões */
+.btn {
+    border-radius: 12px;
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: 0.3s;
+    background-color: #260401;
+    color: white;
+    border: none;  
+    
+}
+
+.btn btn-consult{
+    background-color: #260401;
+    color: white;
+    border:none;
+    margin-left: 10px;
+}
+
+    
+
+
+.btn-primary {
+    background-color: #260401;
+    border: none;
+    color: white;
+    margin-left: 40px;
+}
+
+.btn-primary:hover {
+    background-color: #BF946F;
+    color: white;
+}
+
+.btn-danger {
+    background-color: #260401;
+    border: none;
+    color: white;
+}
+
+.btn-danger:hover {
+    background-color: #BF946F;
+    color: white;
+}
+
+/*Rodapé*/
+footer {
+    background-color: #260401;
+    color: white;
+    text-align: center;
+    padding: 10px; /* Um pouco mais de preenchimento fica melhor */
+    width: 100%;
+}
+
+/* Adicione este código ao final do seu style.css */
+
+/* Muda a cor de checkboxes e radios QUANDO SELECIONADOS */
+.form-check-input:checked {
+    background-color: #A67360; /* Exemplo: um tom marrom do seu projeto */
+    border-color: #A67360;
+}
+
+/* Muda a cor do "foco"  */
+.form-check-input:focus {
+    border-color: #A67360;
+    box-shadow: 0 0 0 0.25rem rgba(170, 122, 104, 0.25);
+}
+
