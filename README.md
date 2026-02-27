@@ -13,10 +13,10 @@ O **BiblioETEC** é uma plataforma completa desenvolvida para facilitar a organi
 ### 🏠 Home e Catálogo
 A página inicial apresenta os destaques do acervo com um design limpo e intuitivo, permitindo que os alunos explorem novas leituras facilmente.
 
-![Home do BiblioETEC](./Screenshots/home.jpg)
+![Home do BiblioETEC](./Screenshots/home.png)
 *Interface principal com carrossel e livros em destaque.*
 
-![Catálogo de Livros](./Screenshots/livros.jpg)
+![Catálogo de Livros](./Screenshots/livros.png)
 *Sistema de busca e filtragem de obras por título, autor ou gênero.*
 
 ---
@@ -29,7 +29,7 @@ A página inicial apresenta os destaques do acervo com um design limpo e intuiti
 * **Perfil Personalizado:** Painel onde o aluno acompanha seus empréstimos pendentes, prazos de devolução e sua lista de desejos.
 
 <p align="center">
-  <img src="./Screenshots/modal.jpg" width="45%" alt="Detalhes do Livro" />
+  <img src="./Screenshots/modal.png" width="45%" alt="Detalhes do Livro" />
   <img src="./Screenshots/perfil.png" width="45%" alt="Perfil do Usuário" />
 </p>
 
