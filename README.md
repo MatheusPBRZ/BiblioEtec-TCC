@@ -4,14 +4,14 @@
 
 > **Sistema moderno de gestão de acervos e bibliotecas escolares.**
 
-O **BiblioETEC** é uma plataforma completa desenvolvida para facilitar a organização de bibliotecas e o acesso à leitura. O projeto combina uma interface amigável para os alunos com um painel administrativo robusto para a gestão de exemplares e reservas.
+O **BiblioETEC** é uma plataforma completa desenvolvida para facilitar a organização de bibliotecas e o acesso à leitura. O projeto combina uma interface intuitiva e moderna para os alunos com um painel administrativo cheio de funções para a gestão de exemplares e reservas.
 
 ---
 
 ## 🖼️ Visual do Projeto
 
 ### 🏠 Home e Catálogo
-A página inicial apresenta os destaques do acervo com um design limpo e intuitivo, permitindo que os alunos explorem novas leituras facilmente.
+A página inicial oferece uma alta praticidade e combinação de elementos em harmonia,  que facilita a leitura e a localização dos acervos
 
 ![Home do BiblioETEC](./Screenshots/home.png)
 *Interface principal com carrossel e livros em destaque.*
