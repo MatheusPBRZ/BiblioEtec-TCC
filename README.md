@@ -66,7 +66,7 @@ Este projeto foi construído utilizando as melhores práticas de desenvolvimento
 
 ## 👨‍💻 Desenvolvedor
 
-Projeto desenvolvido por **Matheus Passos** como Trabalho de Conclusão de Curso (TCC).
+Projeto desenvolvido pelo nosso grupo  como Trabalho de Conclusão de Curso (TCC).
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/seu-perfil)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/MatheusPBRZ)
