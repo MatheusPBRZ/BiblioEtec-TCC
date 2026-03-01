@@ -24,7 +24,7 @@ A página inicial oferece uma alta praticidade e combinação de elementos em ha
 ## 🚀 Funcionalidades Principais
 
 ### Para o Aluno 🎓
-* **Consulta de Acervo:** Navegação por categorias e busca detalhada.
+* **Consulta de Acervo:** Navegação por categorias e buscas detalhadas com filtragem refinada
 * **Reserva Online:** Possibilidade de verificar detalhes do livro e realizar reservas através de um modal informativo.
 * **Perfil Personalizado:** Painel onde o aluno acompanha seus empréstimos pendentes, prazos de devolução e sua lista de desejos.
 
@@ -47,7 +47,7 @@ A página inicial oferece uma alta praticidade e combinação de elementos em ha
 
 ## 🛠️ Tecnologias Utilizadas
 
-Este projeto foi construído utilizando as melhores práticas de desenvolvimento web:
+o projeto foi construído utilizando as melhores práticas de desenvolvimento web:
 
 * **Back-end:** PHP (79.2%) para lógica de negócio e autenticação.
 * **Front-end:** CSS3 (20.8%), HTML5 e JavaScript para uma interface responsiva.
@@ -60,13 +60,17 @@ Este projeto foi construído utilizando as melhores práticas de desenvolvimento
 
 * **/Screenshots:** Prints das principais telas do sistema.
 * **/TCC-BiblioETEC-Final:** Código-fonte completo do projeto.
-* **/MODELO_APRESENTACAO_TCC.pptx:** Documentação visual utilizada na defesa do projeto.
+* **/MODELO_APRESENTACAO_TCC.pptx:** Documentação visual, relatórios de pesquisas e informações técnicas do projeto.
 
 ---
 
 ## 👨‍💻 Desenvolvedor
 
-Projeto desenvolvido pelo nosso grupo  como Trabalho de Conclusão de Curso (TCC).
+Projeto desenvolvido pelo nosso grupo como Trabalho de Conclusão de Curso (TCC).
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/seu-perfil)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/MatheusPBRZ)
+
+
+## Controle de Versão (GIT E GITHUB)
+o controle de versão e o processo de lapidagem do projeto teve como pilar o git e o gihub, embora o repositório original foi privado por motivos de segurança de dados e integridade dos membros, o controle de versão teve um papel muito grande no auxílio do nosso projeto, entre commits e merges nosso gerencionamento ficou cada vez mais profissional e aprimorado.
