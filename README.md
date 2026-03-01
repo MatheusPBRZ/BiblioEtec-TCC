@@ -76,3 +76,4 @@ Projeto desenvolvido pelo nosso grupo como Trabalho de Conclusão de Curso (TCC)
 o controle de versão e o processo de lapidagem do projeto teve como pilar o git e o gihub, embora o repositório original foi privado por motivos de segurança de dados e integridade dos membros, o controle de versão teve um papel muito grande no auxílio do nosso projeto, entre commits e merges nosso gerencionamento ficou cada vez mais profissional e aprimorado.
 
 ![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)
+![Git](https://img.shields.io/badge/Git-100000?style=for-the-badge&logo=git&logoColor=white)
